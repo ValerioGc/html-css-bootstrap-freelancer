@@ -1,11 +1,26 @@
 body {
     font-family: 'Helvetica nue', Helvetica, sans-serif;
 }
-
 /* Colori */
-.my_bg_navbar {
+.my_bg_navbar-footer_sub {
     background-color: #2C3E50;
+}
+.my_bg_footer {
+    background-color: #3A546D;
 }
 .my_bg_container {
     background-color: #1ABC9C;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#portfolio img {
+    width: 100%;
+}
+::placeholder {
+    color: #000;
+    font-weight: bold;
 }
