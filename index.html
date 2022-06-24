@@ -70,7 +70,7 @@
         <!-- Corpo Pagina -->
         <main>
             <!-- Sezione Portfolio -->
-            <div class="container-md text-center" id="portfolio">
+            <div class="container-md text-center my_c_container">
                 <div class="row pt-5">
                     <div class="col">
                         <h2 class="text-uppercase fw-bolder">portfolio</h2>
@@ -79,11 +79,11 @@
                 <div class="row py-2">
                     <div class="col">
                         <svg height="8" width="50">
-                            <line class="align-self-end" x1="50" style="stroke:#000;stroke-width:7" />
+                            <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
                         </svg>
-                        <i class="bi bi-star-fill fs-3 px-2"></i>
+                        <i class="bi bi-star-fill fs-3 my_c_container px-2"></i>
                         <svg height="8" width="50">
-                            <line class="align-self-end" x1="50" style="stroke:#000;stroke-width:7" />
+                            <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
                         </svg>
                     </div>
                 </div>    
@@ -109,12 +109,12 @@
                 </div>
             </div>
             <!-- Sezione About -->
-            <div class="container-fluid my_bg_container text-white text-center">
+            <div class="container-fluid my_bg_container text-white">
                 <div class="row pt-5">
-                    <div class="col">
+                    <div class="col text-center">
                         <h2 class="text-uppercase fw-bolder">about</h2>
                     </div>
-                    <div class="row pt-2 pb-4 mx-0">
+                    <div class="row pt-2 pb-4 mx-0 text-center">
                         <div class="col">
                             <svg height="8" width="50">
                                 <line class="align-self-end" x1="50" style="stroke:#fff;stroke-width:7" />
@@ -126,10 +126,10 @@
                         </div>
                     </div>
                     <div class="row justify-content-center mx-0">
-                            <p class="col-8 col-md-4">Freelancer s a free bootstrap theme created by Start Bootstrap. The download includes teh complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>    
-                            <p class="col-8 col-md-4">Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artis looking to share your project, this template is the perfect starting point!</p>    
+                            <p class="col-8 col-md-4 fs-5">Freelancer s a free bootstrap theme created by Start Bootstrap. The download includes teh complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>    
+                            <p class="col-8 col-md-4 fs-5">Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artis looking to share your project, this template is the perfect starting point!</p>    
                     </div>
-                    <div class="row py-5 mx-0">
+                    <div class="row py-5 mx-0 text-center">
                         <div class="col">
                             <button type="button" class="btn btn-outline-light" name="download" href="#">
                                 <i class="bi bi-download"></i>
@@ -141,21 +141,21 @@
             </div>
             <!-- Sezione Contatti -->
             <div class="container-lg">
-                <h2 class="text-uppercase pt-5 text-center">Contact me</h2>
+                <h2 class="text-uppercase pt-5 text-center my_c_container">Contact me</h2>
                 <div class="row py-2 text-center">
                     <div class="col">
                         <svg height="8" width="50">
-                            <line class="align-self-end" x1="50" style="stroke:#000;stroke-width:7" />
+                            <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
                         </svg>
-                        <i class="bi bi-star-fill fs-3 px-2"></i>
+                        <i class="bi bi-star-fill fs-3 px-2 my_c_container"></i>
                         <svg height="8" width="50">
-                            <line class="align-self-end" x1="50" style="stroke:#000;stroke-width:7" />
+                            <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
                         </svg>
                     </div>
                 </div>
                 <div class="row py-4">
                     <div class="col-10 m-auto">
-                        <form action="get">
+                        <form id="user-data" action="#" method="get">
                             <input class="border-0 col w-100" type="text" name="user name" placeholder="Nome" required>
                             <hr>
                             <input class="border-0 col w-100" type="email" name="user email" placeholder="Email Address" required>

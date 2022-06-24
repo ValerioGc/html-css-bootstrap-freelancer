@@ -24,6 +24,12 @@ body {
 .my_bg_container {
     background-color: var(--my_bg_container)
 }
+.my_c_container {
+    color: var(--my_bg_nav_sub);
+}
+.w-100 {
+    width: 100%;
+}
 #send {
     color: #fff;
     background-color: var(--my_bg_container);
@@ -32,6 +38,9 @@ body {
     border-color: #000 ;
     background-color: var(--my_bg_container_hov);
 }
-.w-100 {
-    width: 100%;
+/* Effetti Hover */
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:active,
+.navbar-nav > li > a:focus {
+    color: var(--my_bg_container)!important;
 }
