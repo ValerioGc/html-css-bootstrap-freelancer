@@ -4,6 +4,34 @@
     --my_bg_container: #1abc9c;
     --my_bg_container_hov: #0b5143;
 }
+/* Colori */
+.my_bg_nav_sub {
+    background-color: var(--my_bg_nav_sub);
+}
+
+.my_bg_foot {
+    background-color: var(--my_bg_foot);
+}
+.my_bg_container {
+    background-color: var(--my_bg_container)
+}
+.my_c_nav_sub {
+    color: var(--my_bg_nav_sub);
+}
+.my_c_container {
+    color: var(--my_bg_container);
+}
+#send {
+    color: var(--bs-white);
+    background-color: var(--my_bg_container);
+}
+
+#send:hover,
+#send:active {
+    border-color: var(--bs-black);
+    background-color: var(--my_bg_container_hov);
+}
+/* Corpo Pagina */
 body {
     font-family: 'Helvetica nue', Helvetica, sans-serif;
 }
@@ -11,41 +39,38 @@ body {
     display: none;
 }
 ::placeholder {
-    color: #000;
+    color: var(--bs-gray-dark);
     font-weight: bold;
-}
-/* Colori */
-.my_bg_nav_sub {
-    background-color: var(--my_bg_nav_sub);
-}
-.my_bg_foot {
-    background-color: var(--my_bg_foot);
-}
-.my_bg_container {
-    background-color: var(--my_bg_container)
-}
-.my_c_container {
-    color: var(--my_bg_nav_sub);
 }
 .w-100 {
     width: 100%;
 }
-#send {
-    color: #fff;
-    background-color: var(--my_bg_container);
+nav {
+    z-index: 100;
 }
-#send:hover, #send:active {
-    border-color: #000 ;
-    background-color: var(--my_bg_container_hov);
+.navbar-brand,
+.navbar-nav > li > a,
+section h2 {
+    font-weight: bold !important;
+}
+.navbar-nav > li >a {
+    line-height: 4rem;
+    border-bottom: 4px solid var(--my_bg_nav_sub);
 }
 /* Effetti Hover */
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:active,
 .navbar-nav > li > a:focus {
+    border-bottom: 4px solid var(--my_bg_container);
     color: var(--my_bg_container)!important;
 }
 #portfolio .img-fluid:hover,
 #portfolio .img-fluid:active {
     transition: all 0.1s ease-in-out 0.1s;
     filter: brightness(50%);
+}
+footer ul li a:hover i {
+    background-color: var(--bs-gray-300);
+    color: var(--my_bg_container)!important;
+    border: 2px solid var(--my_bg_container)!important;
 }

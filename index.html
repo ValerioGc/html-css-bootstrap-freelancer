@@ -13,10 +13,10 @@
         <!-- Header pagina -->
         <header>
             <div class="container-fluid px-0 my_bg_container">
-                <nav class="navbar navbar-expand-lg my_bg_nav_sub navbar-dark position-fixed w-100">
+                <nav class="navbar navbar-expand-lg my_bg_nav_sub navbar-dark position-fixed w-100 py-0">
                     <div class="container-md">
                         <a class="navbar-brand text-uppercase" href="#">Start bootstrap</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        <button class="navbar-toggler my-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -49,11 +49,11 @@
                             <div class="row py-2">
                                 <div class="col">
                                     <svg height="8" width="50">
-                                        <line class="align-self-end" x1="50" style="stroke:#fff; stroke-width:7" />
+                                        <line class="align-self-end" x1="50" style="stroke:var(--bs-white); stroke-width:7" />
                                     </svg>
                                     <i class="bi bi-star-fill fs-3 px-2"></i>
                                     <svg height="8" width="50">
-                                        <line class="align-self-end" x1="50" style="stroke:#fff; stroke-width:7" />
+                                        <line class="align-self-end" x1="50" style="stroke:var(--bs-white); stroke-width:7" />
                                     </svg>
                                 </div>
                             </div>
@@ -70,105 +70,115 @@
         <!-- Corpo Pagina -->
         <main>
             <!-- Sezione Portfolio -->
-            <div class="container-md text-center my_c_container" id="portfolio">
-                <div class="row pt-5">
-                    <div class="col">
-                        <h2 class="text-uppercase fw-bolder">portfolio</h2>
+            <section id="portfolio">
+                <div class="container-md text-center my_c_nav_sub">
+                    <div class="row pt-5">
+                        <div class="col">
+                            <h2 class="text-uppercase">portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col">
+                            <svg height="8" width="50">
+                                <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
+                            </svg>
+                            <i class="bi bi-star-fill fs-3 my_c_nav_sub px-2"></i>
+                            <svg height="8" width="50">
+                                <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row px-1 py-3">
+                        <div class="col-12 col-md-6 col-lg-4 py-3">
+                            <img class="rounded img-fluid" src="img/cabin.png" alt="imagine cabina">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 py-3">
+                            <img class="rounded img-fluid" src="img/cake.png" alt="imagine torta">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 py-3">
+                            <img class="rounded img-fluid" src="img/circus.png" alt="imagine circo">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 py-3">
+                            <img class="rounded img-fluid" src="img/game.png" alt="imagine videgiochi">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 py-3">
+                            <img class="rounded img-fluid" src="img/safe.png" alt="imagine Cassaforte">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 py-3">
+                            <img class="rounded img-fluid" src="img/submarine.png" alt="imagine sottomarino">
+                        </div>
                     </div>
                 </div>
-                <div class="row py-2">
-                    <div class="col">
-                        <svg height="8" width="50">
-                            <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
-                        </svg>
-                        <i class="bi bi-star-fill fs-3 my_c_container px-2"></i>
-                        <svg height="8" width="50">
-                            <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
-                        </svg>
-                    </div>
-                </div>    
-                <div class="row px-1 py-3">
-                    <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="rounded img-fluid" src="img/cabin.png" alt="imagine cabina">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="rounded img-fluid" src="img/cake.png" alt="imagine torta">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="rounded img-fluid" src="img/circus.png" alt="imagine circo">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="rounded img-fluid" src="img/game.png" alt="imagine videgiochi">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="rounded img-fluid" src="img/safe.png" alt="imagine Cassaforte">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="rounded img-fluid" src="img/submarine.png" alt="imagine sottomarino">
-                    </div>
-                </div>
-            </div>
+            </section>
             <!-- Sezione About -->
-            <div class="container-fluid my_bg_container text-white" id="about">
-                <div class="row pt-5">
-                    <div class="col text-center">
-                        <h2 class="text-uppercase fw-bolder">about</h2>
-                    </div>
-                    <div class="row pt-2 pb-4 mx-0 text-center">
-                        <div class="col">
-                            <svg height="8" width="50">
-                                <line class="align-self-end" x1="50" style="stroke:#fff;stroke-width:7" />
-                            </svg>
-                            <i class="bi bi-star-fill fs-3 px-2"></i>
-                            <svg height="8" width="50">
-                                <line class="align-self-end" x1="50" style="stroke:#fff;stroke-width:7" />
-                            </svg>
+            <section  id="about">
+                <div class="container-fluid my_bg_container text-white">
+                    <div class="row pt-5">
+                        <div class="col text-center">
+                            <h2 class="text-uppercase fw-bolder">about</h2>
                         </div>
-                    </div>
-                    <div class="row justify-content-center mx-0">
-                            <p class="col-8 col-md-4 fs-5">Freelancer s a free bootstrap theme created by Start Bootstrap. The download includes teh complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>    
-                            <p class="col-8 col-md-4 fs-5">Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artis looking to share your project, this template is the perfect starting point!</p>    
-                    </div>
-                    <div class="row py-5 mx-0 text-center">
-                        <div class="col">
-                            <button type="button" class="btn btn-outline-light" name="download" href="#">
-                                <i class="bi bi-download"></i>
-                                Download
-                            </button>
+                        <div class="row pt-2 pb-4 mx-0 text-center">
+                            <div class="col">
+                                <svg height="8" width="50">
+                                    <line class="align-self-end" x1="50" style="stroke:var(--bs-white);stroke-width:7" />
+                                </svg>
+                                <i class="bi bi-star-fill fs-3 px-2"></i>
+                                <svg height="8" width="50">
+                                    <line class="align-self-end" x1="50" style="stroke:var(--bs-white);stroke-width:7" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mx-0">
+                            <p class="col-8 col-md-4 fs-5">Freelancer s a free bootstrap theme created by Start Bootstrap. The download
+                                includes teh complete source files including HTML, CSS, and JavaScript as well as optional LESS
+                                stylesheets for easy customization.</p>
+                            <p class="col-8 col-md-4 fs-5">Wheter you're a student looking to showcase your work, a professional looking
+                                to attract clients, or a graphic artis looking to share your project, this template is the perfect
+                                starting point!</p>
+                        </div>
+                        <div class="row py-5 mx-0 text-center">
+                            <div class="col">
+                                <button type="button" class="btn btn-outline-light" name="download" href="#">
+                                    <i class="bi bi-download"></i>
+                                    Download
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- Sezione Contatti -->
-            <div class="container-lg" id="contact">
-                <h2 class="text-uppercase pt-5 text-center my_c_container">Contact me</h2>
-                <div class="row py-2 text-center">
-                    <div class="col">
-                        <svg height="8" width="50">
-                            <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
-                        </svg>
-                        <i class="bi bi-star-fill fs-3 px-2 my_c_container"></i>
-                        <svg height="8" width="50">
-                            <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
-                        </svg>
+            <section id="contact">
+                <div class="container-lg">
+                    <h2 class="text-uppercase pt-5 text-center my_c_nav_sub">Contact me</h2>
+                    <div class="row py-2 text-center">
+                        <div class="col">
+                            <svg height="8" width="50">
+                                <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
+                            </svg>
+                            <i class="bi bi-star-fill fs-3 px-2 my_c_nav_sub"></i>
+                            <svg height="8" width="50">
+                                <line class="align-self-end" x1="50" style="stroke:var(--my_bg_nav_sub);stroke-width:7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row py-4">
+                        <div class="col-10 m-auto">
+                            <form id="user-data" action="#" method="get">
+                                <input class="border-0 col w-100" type="text" name="user name" placeholder="Nome" required>
+                                <hr>
+                                <input class="border-0 col w-100" type="email" name="user email" placeholder="Email Address" required>
+                                <hr>
+                                <input class="border-0 col w-100" type="tel" name="user telephone" placeholder="Phone Number" required>
+                                <hr>
+                                <textarea rows="8rem" class="border-0 col w-100" type="textarea" name="user-message" placeholder="Message" required></textarea>
+                                <hr>
+                                <button id="send" type="button" class="btn my-5" name="submit-button">Send</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-                <div class="row py-4">
-                    <div class="col-10 m-auto">
-                        <form id="user-data" action="#" method="get">
-                            <input class="border-0 col w-100" type="text" name="user name" placeholder="Nome" required>
-                            <hr>
-                            <input class="border-0 col w-100" type="email" name="user email" placeholder="Email Address" required>
-                            <hr>
-                            <input class="border-0 col w-100" type="tel" name="user telephone" placeholder="Phone Number" required>
-                            <hr>
-                            <textarea rows="8rem" class="border-0 col w-100" type="textarea" name="user-message" placeholder="Message" required></textarea>
-                            <hr>
-                            <button id="send" type="button" class="btn my-5" name="submit-button">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
+            </section>
         </main>
         <!-- Footer Pagina -->
         <footer class="text-center">
@@ -180,17 +190,33 @@
                     </div>
                     <div class="col-6 col-md-4 col-lg-3 p-3 mt-3">
                         <h5 class="text-uppercase pb-4">Around the web</h5>
-                        <div class="row justify-content-around p-0">
-                            <a class="col px-0 text-white d-inline-block"><i class="bi bi-facebook border rounded-circle p-3"></i></a>
-                            <a class="col px-0 text-white d-inline-block"><i class="bi bi-google border rounded-circle p-3"></i></a>
-                            <a class="col px-0 text-white d-inline-block"><i class="bi bi-twitter border rounded-circle p-3"></i></a>
-                            <a class="col px-0 text-white d-inline-block"><i class="bi bi-linkedin border rounded-circle p-3"></i></a>
-                        </div>
+                        <ul class="row justify-content-around p-0">
+                            <li class="col px-1 text-white d-inline-block">
+                                <a href="#">
+                                    <i class="bi bi-facebook border rounded-circle p-3 text-white"></i>
+                                </a>
+                            </li>
+                            <li class="col px-1 text-white d-inline-block">
+                                <a href="#">
+                                    <i class="bi bi-google border rounded-circle p-3 text-white"></i>
+                                </a>
+                            </li>
+                            <li class="col px-1 text-white d-inline-block">
+                                <a href="#">
+                                    <i class="bi bi-twitter border rounded-circle p-3 text-white"></i>
+                                </a>
+                            </li>
+                            <li class="col px-1 text-white d-inline-block">
+                                <a href="#">
+                                    <i class="bi bi-linkedin border rounded-circle p-3 text-white"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-12 col-md-4 col-lg-3 p-3 mt-3 text-center mx-0">
                         <h5 class=" text-uppercase">About freelancer</h5>
                         <p>
-                            Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.
+                            Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="my_c_container">Start Bootstrap</a>.
                         </p>
                     </div>
                 </div>
