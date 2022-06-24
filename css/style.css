@@ -1,26 +1,25 @@
+:root {
+    --my_bg_nav_sub: #2c3e50;
+    --my_bg_foot: #3a546d;
+    --my_bg_container: #1abc9c;
+}
 body {
     font-family: 'Helvetica nue', Helvetica, sans-serif;
 }
-/* Colori */
-.my_bg_nav_sub {
-    background-color: #2C3E50;
-}
-.my_bg_footer {
-    background-color: #3A546D;
-}
-.my_bg_container {
-    background-color: #1ABC9C;
-}
-
-
 ::-webkit-scrollbar {
     display: none;
-}
-
-#portfolio img {
-    width: 100%;
 }
 ::placeholder {
     color: #000;
     font-weight: bold;
+}
+/* Colori */
+.my_bg_nav_sub {
+    background-color: var(--my_bg_nav_sub);
+}
+.my_bg_foot {
+    background-color: var(--my_bg_foot);
+}
+.my_bg_container {
+    background-color: var(--my_bg_container)
 }
