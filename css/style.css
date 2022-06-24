@@ -8,7 +8,6 @@
 .my_bg_nav_sub {
     background-color: var(--my_bg_nav_sub);
 }
-
 .my_bg_foot {
     background-color: var(--my_bg_foot);
 }
@@ -25,7 +24,6 @@
     color: var(--bs-white);
     background-color: var(--my_bg_container);
 }
-
 #send:hover,
 #send:active {
     border-color: var(--bs-black);
