@@ -32,3 +32,6 @@ body {
     border-color: #000 ;
     background-color: var(--my_bg_container_hov);
 }
+.w-100 {
+    width: 100%;
+}

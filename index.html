@@ -140,7 +140,7 @@
                 </div>
             </div>
             <!-- Sezione Contatti -->
-            <div class="container-fluid">
+            <div class="container-lg">
                 <h2 class="text-uppercase pt-5 text-center">Contact me</h2>
                 <div class="row py-2 text-center">
                     <div class="col">
@@ -154,25 +154,17 @@
                     </div>
                 </div>
                 <div class="row py-4">
-                    <div class="col-6 m-auto">
+                    <div class="col-10 m-auto">
                         <form action="get">
-                            <div class="row text-start">
-                                <input class="border-0 col" type="text" name="" id="" placeholder="Nome" required>
-                            </div>
-                            <hr >
-                            <div class="row text-start">
-                                <input class="border-0 col" type="email" name="" id="" placeholder="Email Address" required>
-                            </div>
+                            <input class="border-0 col w-100" type="text" name="user name" placeholder="Nome" required>
                             <hr>
-                            <div class="row text-start">
-                                <input class="border-0 col" type="tel" name="" id="" placeholder="Phone Number"required>
-                            </div>
+                            <input class="border-0 col w-100" type="email" name="user email" placeholder="Email Address" required>
                             <hr>
-                            <div class="row text-start">
-                                <textarea rows="8rem" class="border-0 col" type="textarea" name="" id="" placeholder="Message" required></textarea>
-                            </div>                            
+                            <input class="border-0 col w-100" type="tel" name="user telephone" placeholder="Phone Number" required>
                             <hr>
-                            <button id="send" type="button" class="btn my-5">Send</button>
+                            <textarea rows="8rem" class="border-0 col w-100" type="textarea" name="user-message" placeholder="Message" required></textarea>
+                            <hr>
+                            <button id="send" type="button" class="btn my-5" name="submit-button">Send</button>
                         </form>
                     </div>
                 </div>
