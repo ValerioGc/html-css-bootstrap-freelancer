@@ -2,6 +2,7 @@
     --my_bg_nav_sub: #2c3e50;
     --my_bg_foot: #3a546d;
     --my_bg_container: #1abc9c;
+    --my_bg_container_hov: #0b5143;
 }
 body {
     font-family: 'Helvetica nue', Helvetica, sans-serif;
@@ -22,4 +23,12 @@ body {
 }
 .my_bg_container {
     background-color: var(--my_bg_container)
+}
+#send {
+    color: #fff;
+    background-color: var(--my_bg_container);
+}
+#send:hover, #send:active {
+    border-color: #000 ;
+    background-color: var(--my_bg_container_hov);
 }
