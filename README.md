@@ -18,7 +18,7 @@
 
 ## *_Preview:_*
 
-![Preview 1a](/preview/preview-freelancer.gif)
+![Preview 1a](/previews/preview-freelancer.gif)
 ![Preview 1b](/previews/freelancer-thumbnails.png)
 
 
